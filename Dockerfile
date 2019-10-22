@@ -10,7 +10,7 @@ ENV   PATH="${SIMDET_BIN}:${PATH}"
 ENV   AD_PREFIX="6iddSIM1:"
 EXPOSE 5064 5065
 
-WORKDIR /opt/synApps/support/areaDetector-R3-7/ADSimDetector/iocs/simDetectorIOC/iocBoot/iocSimDetector
+WORKDIR /opt/synApps/support/areaDetector-R3-8/ADSimDetector/iocs/simDetectorIOC/iocBoot/iocSimDetector
 ENTRYPOINT ["simDetectorApp", "st.cmd"]
 
 # --- DEV ---
